@@ -35,11 +35,11 @@ googleAddressAutocomplete.prototype = {
 		this.loadAllData();
 		this.initAutoship();
 	},
-	initAutoship: function()
+	/*initAutoship: function()
 	{
 		var countrys = document.getElementById("shipping:country_id").value;
         this.loadAllDatas(countrys);
-	},
+	},*/
 	loadAllData: function(country = '')
 	{
 		if(country == '')
