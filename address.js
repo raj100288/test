@@ -6,7 +6,7 @@
 	},
 	
 	//mapValuesJson: function()
-	{
+	/*{
 		var mapvalues = {
 			street_number: 'short_name',
 			route: 'short_name',
@@ -22,7 +22,7 @@
 			};
 		
 		return mapvalues;
-	},
+	},*/
 
 	regionBasedOnCountry: function()
 	{
