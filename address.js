@@ -1,5 +1,5 @@
-var googleAddressAutocomplete = Class.create();
-googleAddressAutocomplete.prototype = {
+//var googleAddressAutocomplete = Class.create();
+//googleAddressAutocomplete.prototype = {
 	initialize: function(page){
 		this.page = page;
 		this.geoLocation(this.page);
