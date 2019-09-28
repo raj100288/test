@@ -5,7 +5,7 @@
 		this.geoLocation(this.page);
 	},
 	
-	mapValuesJson: function()
+	//mapValuesJson: function()
 	{
 		var mapvalues = {
 			street_number: 'short_name',
