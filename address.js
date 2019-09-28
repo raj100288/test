@@ -1,5 +1,5 @@
-//var googleAddressAutocomplete = Class.create();
-//googleAddressAutocomplete.prototype = {
+var googleAddressAutocomplete = Class.create();
+googleAddressAutocomplete.prototype = {
 	initialize: function(page){
 		this.page = page;
 		this.geoLocation(this.page);
@@ -35,11 +35,11 @@
 		this.loadAllData();
 		this.initAutoship();
 	},
-	initAutoship: function()
+	/*initAutoship: function()
 	{
 		var countrys = document.getElementById("shipping:country_id").value;
         this.loadAllDatas(countrys);
-	},
+	},*/
 	loadAllData: function(country = '')
 	{
 		if(country == '')
